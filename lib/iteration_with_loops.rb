@@ -5,6 +5,7 @@ def find_min_in_nested_arrays(src)
   index = 0
   while index < src.length do
     result << src[index].sort[0]
+    index += 1
   end
   return result
 end
